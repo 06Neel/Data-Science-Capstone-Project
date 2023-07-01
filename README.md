@@ -9,23 +9,39 @@ Welcome to the GitHub repository for the Car Price Prediction Streamlit App! Thi
 - Input various car features, such as mileage, brand, year, and more, to get an estimated price.
 - The app uses a trained machine learning model to make predictions.
 
+ ## Model Deployment
+  We are pleased to announce that the project has been successfully deployed using Streamlit. You can access the live deployment of the Car Price Prediction model    by following this link: [Car Price Prediction Deployment](https://data-science-capstone-project-car-price-prediction-by-06neel.streamlit.app/)
+
+## Usage
+  Once you access the Streamlit app, you will be able to interact with the model's user-friendly interface. Simply input the relevant features of the car you want 
+  to predict the price for, and the model will provide you with an estimated price based on the trained data. Feel free to experiment with different combinations 
+  of features and explore the model's performance.
+
+## Feedback and Contributions
+  Your feedback and contributions are highly appreciated. If you encounter any issues, have suggestions for improvement, or would like to contribute to the 
+  project, please don't hesitate to create an issue or submit a pull request in this repository.
+
+ - Let's start predicting car prices! Enjoy using the Car Price Prediction model deployed on Streamlit.
+
+-  **Note** : This project is for educational purposes only, and the predicted prices should not be considered as definitive values for real-world transactions.
+
 ## Installation
 
 To run the Car Price Prediction Streamlit App on your local machine, follow these steps:
 
-1. Clone this repository to your local machine using the following command:`git clone https://github.com/06Neel/Data-Science-Capstone-Project.git`
+1. **Clone this repository to your local machine using the following command**:`git clone https://github.com/06Neel/Data-Science-Capstone-Project.git`
 
-2. Navigate to the project directory:`cd car-price-prediction-streamlit`
+2. **Navigate to the project directory**:`cd car-price-prediction-streamlit`
 
-3. Create a virtual environment (optional but recommended) and activate it:`python -m venv venv`
-- For Windows:`venv\Scripts\activate`
-- For Unix or Linux:`source venv/bin/activate`
+3. **Create a virtual environment (optional but recommended) and activate it**:`python -m venv venv`
+    - **For Windows**:`venv\Scripts\activate`
+    - **For Unix or Linux**:`source venv/bin/activate`
 
-4. Install the required dependencies: `pip install -r requirements.txt`
+4. **Install the required dependencies**: `pip install -r requirements.txt`
 
-5. Run the Streamlit app:`streamlit run app.py`
+5. **Run the Streamlit app**:`streamlit run app.py`
 
-6. Open your web browser and go to `http://localhost:8501` to access the Car Price Prediction app.
+6. **Open your web browser and go to** `http://localhost:8501` **to access the Car Price Prediction app**.
 
 ## Dataset
 
