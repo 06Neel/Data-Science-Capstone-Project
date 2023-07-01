@@ -3,8 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the trained model
-model = pickle.load(open('Model.pkl','rb'))
-#joblib.load('Model.pkl')
+model = joblib.load('Model.pkl')
 # Load dataset
 df = pd.read_csv('comapany.csv')
 
