@@ -22,7 +22,7 @@ cd car-price-prediction-streamlit
 python -m venv venv
 - For Windows:
 venv\Scripts\activate
-- ## For Unix or Linux:
+- For Unix or Linux:
 source venv/bin/activate
 
 4. Install the required dependencies:
